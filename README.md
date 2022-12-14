@@ -5,7 +5,7 @@ Node.js software that provides two simple functions, one to start a Bluetooth Lo
 Works only on Linux with BlueZ.
 Tested with Ubuntu 22.04 LTS.
 
-Uses hcicontrol make sure that it is installed.
+Uses hcitool so make sure that it is installed.
 
 ### Example
 example.js starts an iBeacon for 20 seconds and after that stops the iBeacon again.
